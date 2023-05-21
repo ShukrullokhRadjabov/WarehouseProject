@@ -1,0 +1,35 @@
+### Create input
+POST localhost:8080/api/v1/input/private/create
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+Content-Type:  application/json
+
+{
+  "warehouseId": 2,
+  "supplierId": 2,
+  "currencyId": 2,
+  "factureNumber": "5",
+  "code": "fds"
+}
+
+
+### Update input
+PUT localhost:8080/api/v1/input/private/update/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+Content-Type:  application/json
+
+{
+  "warehouseId": 1,
+  "supplierId": 2,
+  "currencyId": 1,
+  "factureNumber": "5",
+  "code": "Helloo"
+}
+
+### Delete input
+DELETE localhost:8080/api/v1/input/private/delete/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+
+### List of input
+GET localhost:8080/api/v1/input/private/list
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+

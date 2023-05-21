@@ -1,0 +1,29 @@
+### Create supplier
+POST localhost:8080/api/v1/supplier/private/create
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+Content-Type:  application/json
+
+{
+  "name": "Yuk yetkazib beruvchi",
+  "phoneNumber":"+998910020122"
+}
+
+
+### Update supplier
+PUT localhost:8080/api/v1/supplier/private/update/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+Content-Type:  application/json
+
+{
+  "name": "Alish",
+  "phoneNumber":"+998901001111"
+}
+
+### Delete supplier
+DELETE localhost:8080/api/v1/supplier/private/delete/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+
+### List of supplier
+GET localhost:8080/api/v1/supplier/private/list
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+

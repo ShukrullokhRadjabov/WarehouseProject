@@ -1,0 +1,35 @@
+### Create output-product
+POST localhost:8080/api/v1/output-product/private/create
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ2NTkyNTQsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDc0NTY1NCwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oOdYcxRyk0Dh_K9diIv6kDNLYpXMlGjjhxdsx-ZXwvMVwEjbKp3MOrI-uTbyazk8Y00VkOJ-MQPQAkfBhzUcbA
+Content-Type:  application/json
+
+{
+  "productId": 1,
+  "amount": 1,
+  "price": 1,
+  "outputId": 1,
+  "day": 10
+}
+
+
+### Update output-product
+PUT localhost:8080/api/v1/output-product/private/update/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+Content-Type:  application/json
+
+{
+  "productId": 1,
+  "amount": 1,
+  "price": 1,
+  "outputId": 1,
+  "day": 5
+}
+
+### Delete output-product
+DELETE localhost:8080/api/v1/output-product/private/delete/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+
+### List of output-product
+GET localhost:8080/api/v1/output-product/private/list
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+

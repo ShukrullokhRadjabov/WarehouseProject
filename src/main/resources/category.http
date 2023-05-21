@@ -1,0 +1,7 @@
+POST localhost:8080/api/v1/category
+Content-Type: application/json
+
+{
+  "name": "Alish",
+  "parentCategoryId": 1
+}

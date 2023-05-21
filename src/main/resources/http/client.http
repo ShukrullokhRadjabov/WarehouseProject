@@ -1,0 +1,29 @@
+### Create client
+POST localhost:8080/api/v1/client/private/create
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+Content-Type:  application/json
+
+{
+  "name": "Mijoz5",
+  "phoneNumber":"+998956034442"
+}
+
+
+### Update client
+PUT localhost:8080/api/v1/client/private/update/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+Content-Type:  application/json
+
+{
+  "name": "Alish",
+  "phoneNumber":"+998901003030"
+}
+
+### Delete client
+DELETE localhost:8080/api/v1/client/private/delete/1
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+
+### List of client
+GET localhost:8080/api/v1/client/private/list
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODQ1Nzc1MjEsInBob25lIjoiMTIzNDUiLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NDY2MzkyMSwiaXNzIjoiS3VudXogdGVzdCBwb3J0YWxpIn0.oyDsQb9Z9eU1Oh7qjbmO5xjuonavlZyHdoqWONaKTAdl3zkBhPqT4cvQAi4i1mMauglWkZSciOWT3PL1kFJ43g
+
